@@ -1,3 +1,3 @@
 # casaos-arch
 
-`wget -qO- https://raw.githubusercontent.com/liberodark/casaos-arch/refs/heads/master/install.sh | bash`
+`wget -qO- https://paste.yunohost.org/raw/gofovinupi | bash`
