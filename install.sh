@@ -151,8 +151,7 @@ sudo sed -i '/exfat/s/, nonempty//g' /etc/udevil/udevil.conf
 sudo sed -i '/default_options/s/, noexec//g' /etc/udevil/udevil.conf
 
 # Enable and start devmon
-sudo systemctl enable devmon@devmon
-sudo systemctl start devmon@devmon
+sudo systemctl enable --now devmon@devmon
 
 # Download and install CasaOS
 wget -qO- https://get.casaos.io | sudo bash
